@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --satisfy : 'Satisfy', cursive;
+    --primary :#EE4C7D;
+    --poppins:'Poppins', sans-serif;
+    --primaryGradient:linear-gradient(178.35deg, #DE4574 -19.85%, #000000 107.69%);
+    --white:#fff;
+}
+nav{
+    background: linear-gradient(175.77deg, rgba(0, 0, 0, 0.5) -132.19%, rgba(0, 0, 0, 0) 633.66%);
+backdrop-filter: blur(7px);
+}
+nav ul li{
+    padding: 0.5rem 2rem;
+}
+
+.nav-link{
+color: #fff;
+
+}
+.navbar-brand{
+    font-family:  var(--satisfy);
+    font-size: 2rem;
+    color: var(--primary);
+    padding: 0.5rem 5%;
+}
