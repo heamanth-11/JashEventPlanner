@@ -9,6 +9,7 @@
     --white:#fff;
 }
 nav{
+    z-index: 0;
     background: linear-gradient(175.77deg, rgba(0, 0, 0, 0.5) -132.19%, rgba(0, 0, 0, 0) 633.66%);
 backdrop-filter: blur(7px);
 }
@@ -25,4 +26,71 @@ color: #fff;
     font-size: 2rem;
     color: var(--primary);
     padding: 0.5rem 5%;
+}
+.home{
+    background: url("../assets/jashEventPlanner.png");
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: no-repeat;
+    
+   
+}
+.home-text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: var(--white);
+    position: relative;
+    top: 15vh;
+    
+}
+.home-text h1{
+    font-family: var(--satisfy);
+    font-size: 7rem;
+    font-weight: 400;
+   
+
+}
+.home-text p{
+    font-family: var(--poppins);
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.fa-whatsapp{
+    font-size: 1rem;
+
+}
+.fa-whatsapp:hover{
+    color: var(--white);
+
+}
+.home-button{
+    padding: 1rem;
+}
+button{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+}
+button span{
+    font-size: 1rem;
+}
+
+.gallery{
+    background: linear-gradient(175.77deg, rgba(0, 0, 0, 0.5) -132.19%, rgba(0, 0, 0, 0) 633.66%);
+    color: var(--white);
+    backdrop-filter: blur(7px);
+
+}
+.gallery:hover{
+    background:var(--primary);
+
+}
+.whatsapp:hover{
+    background-color: green;
+    color: var(--white);
+    
+
 }
