@@ -32,14 +32,14 @@ color: #fff;
     z-index: -1;
     position: absolute;
     width: 100%;
-    height: 100%;
-    background-image: no-repeat;
+    height: 100vh;
+    background-repeat: no-repeat;
     
    
 }
 .home-text{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     text-align: center;
     color: var(--white);
     position: relative;
@@ -91,6 +91,68 @@ button span{
 .whatsapp:hover{
     background-color: green;
     color: var(--white);
-    
+}
+.container{
+    width: 100%;
 
+}
+.abt-con{
+    padding: 0 4%;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+.row{
+    width: 100%;
+    height: 100%;
+}
+.col-img{
+    width: 70%;
+}
+.col-img img{
+    width:100%;
+}
+.col-text{
+    width: 100%;
+    
+}
+.col-text h1 pre{
+    font-weight: 600;
+    color: var(--primary);
+    word-break: 1;
+  
+}
+.col-text p{
+    vertical-align: middle;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-break: 2;
+}
+.pgr{
+  padding-top: 2rem;
+  
+}
+
+.projectscount{
+    width: 100%;
+    z-index: 0;
+    background: #E9E9E9CC;
+     color: var(--primary);
+   
+    
+}
+
+.col{
+    text-align: center;
+    vertical-align: middle;
+    padding: 1rem;
+}
+.col h3{
+    font-size: 3rem ;
+    font-weight: 600 ;
+}
+.col h6{
+    font-size: 2rem;
+    font-weight: 400;
 }
