@@ -29,8 +29,8 @@ color: #fff;
 }
 .home{
     background: url("../assets/jashEventPlanner.png");
-    z-index: -1;
-    position: absolute;
+    /* z-index: -1;
+    position: absolute; */
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -190,5 +190,106 @@ button span{
     padding: 2rem 5%;
 }
 .serv-hov:hover{
-    width:110%;
+    width:150%;
  }
+ .fa-instagram{
+    
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+.fa-whatsapp-square{
+    color: green;
+}
+ .fa-facebook-square{
+color: 	#4267B2;
+ 
+
+ }
+ .fa-linkedin{
+     color: #0e76a8 ;
+ }
+ .fa-youtube{
+     color:red;
+ }
+ .social-media-clm{
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     vertical-align: middle;
+     margin: auto;
+ }
+ .social-media-text{
+     color: var(--primary);
+     text-align: start;
+ }
+ .social-media-text h2{
+     font-weight: 700;
+     font-family: var(--poppins);
+     letter-spacing: 2px;
+ }
+ .fab-si{ font-size: 4rem;}
+.social-media-clm-2-row{padding: 1rem 0;}
+footer{
+   width: 100%;
+   padding: 2rem 5%;
+   background-color: #000000;
+   margin: auto;
+   color: var(--white);
+}
+.footer-col{
+ padding: 1rem;
+ justify-content: center;
+ text-align: center;
+}
+.footer-col h3 pre{
+    font-size: 2rem;
+font-family: 300;
+color: var(--primary);;
+font-family: var(--satisfy);
+}
+.footer-col p{
+    font-family: var(--poppins);
+
+}
+.footer-col h6{
+    color: var(--primary);
+    font-weight: 400;
+
+}
+
+.contactUS{
+    font-size: 2rem;
+}
+footer button{
+    background: var(--primary);
+    padding: 0.5rem 2rem ;
+}
+footer a{
+    color: var(--primary);
+}
+footer hr{
+    color: var(--primary);
+    height: 2px;
+    
+}
+.kodu{
+    text-align: center;
+}
+.our-clients{
+    color: var(--white);
+    text-align: center;
+    background:var(--primary);
+    margin: auto;
+    font-family: var(--poppins);
+}
+.our-clients h3{
+    padding: 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.our-clients span{
+    color: var(--primary);
+}
