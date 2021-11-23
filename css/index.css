@@ -16,6 +16,17 @@ backdrop-filter: blur(7px);
 nav ul li{
     padding: 0.5rem 2rem;
 }
+a:hover{
+    color: var(--primary);
+}
+a:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4) ;
+    cursor: pointer;
+    transition: .1s;
+   
+
+}
 
 .nav-link{
 color: #fff;
@@ -189,8 +200,11 @@ button span{
 .services{
     padding: 2rem 5%;
 }
-.serv-hov:hover{
-    width:150%;
+.col-ser-wrap:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4) ;
+    cursor: pointer;
+    transition: .1s;
  }
  .fa-instagram{
     
@@ -230,7 +244,14 @@ color: 	#4267B2;
      font-family: var(--poppins);
      letter-spacing: 2px;
  }
- .fab-si{ font-size: 4rem;}
+ .fab-si{ font-size: 4rem;
+}
+.fab-si:hover{
+    transform: scale(1.1);
+    /* box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4) ; */
+    cursor: pointer;
+    transition: .1s;
+}
 .social-media-clm-2-row{padding: 1rem 0;}
 footer{
    width: 100%;
@@ -263,9 +284,21 @@ font-family: var(--satisfy);
 .contactUS{
     font-size: 2rem;
 }
+.contactUS:hover{
+    transform: scale(1.1);
+    /* box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4) ; */
+    cursor: pointer;
+    transition: .1s;
+}
 footer button{
     background: var(--primary);
     padding: 0.5rem 2rem ;
+}
+footer button:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4) ;
+    cursor: pointer;
+    transition: .1s;
 }
 footer a{
     color: var(--primary);
@@ -292,4 +325,29 @@ footer hr{
 }
 .our-clients span{
     color: var(--primary);
+}
+hr{
+    background-color: var(--primary);
+    border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  height: 1px
+}
+@media only screen and (max-width: 700px){
+    .home{
+        height: 70vh;
+    }
+    .home-text h1{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .home-text p{
+        font-size: 1rem;
+    }
+    pre{
+        font-size: 20px;
+        font-weight:bolder;
+        font-family: var(--poppins);
+    }
 }
